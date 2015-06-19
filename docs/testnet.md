@@ -19,8 +19,9 @@ PEER_SEED="s3BCUXncNvghHzKafx4gwYGaEG5rEeMUDdJPDsdjve3ojoFd5tK"
 # what generates the nodeID (used in FBA)
 VALIDATION_SEED="s3BCUXncNvghHzKafx4gwYGaEG5rEeMUDdJPDsdjve3ojoFd5tK"
 
-QUORUM_THRESHOLD=1
-QUORUM_SET=["gxoicA8D962NezYaa4AmrhXKGHYbrELu8rhyKE2vt8osLHL3T5"]
+[QUORUM_SET]
+THRESHOLD=1
+VALIDATORS=["gxoicA8D962NezYaa4AmrhXKGHYbrELu8rhyKE2vt8osLHL3T5"]
 ```
 
 By default stellar-core waits to hear from the network for a ledger close before
